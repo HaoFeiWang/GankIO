@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_study_share"
+        android:orderInCategory="100"
+        android:title="分享"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launch_white_18dp"/>
+    <item android:id="@+id/menu_study_refresh"
+        android:orderInCategory="100"
+        android:title="刷新"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_autorenew_white_18dp"/>
+    <item android:id="@+id/menu_study_browser"
+        android:orderInCategory="100"
+        android:title="浏览器中打开"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_language_white_18dp"/>
+
+</menu>
